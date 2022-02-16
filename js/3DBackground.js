@@ -21,12 +21,12 @@
     controls.maxDistance = 1500;
     
     let materialArray = [];
-    let texture_ft = new THREE.TextureLoader().load( '/images/tears_ft.jpg');
-    let texture_bk = new THREE.TextureLoader().load( '/images/tears_bk.jpg');
-    let texture_up = new THREE.TextureLoader().load( '/images/tears_up.jpg');
-    let texture_dn = new THREE.TextureLoader().load( '/images/tears_dn.jpg');
-    let texture_rt = new THREE.TextureLoader().load( '/images/tears_rt.jpg');
-    let texture_lf = new THREE.TextureLoader().load( '/images/tears_lf.jpg');
+    let texture_ft = new THREE.TextureLoader().load( '/images/divine_ft.jpg');
+    let texture_bk = new THREE.TextureLoader().load( '/images/divine_bk.jpg');
+    let texture_up = new THREE.TextureLoader().load( '/images/divine_up.jpg');
+    let texture_dn = new THREE.TextureLoader().load( '/images/divine_dn.jpg');
+    let texture_rt = new THREE.TextureLoader().load( '/images/divine_rt.jpg');
+    let texture_lf = new THREE.TextureLoader().load( '/images/divine_lf.jpg');
       
     materialArray.push(new THREE.MeshBasicMaterial( { map: texture_ft }));
     materialArray.push(new THREE.MeshBasicMaterial( { map: texture_bk }));
